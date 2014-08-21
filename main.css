@@ -1,0 +1,219 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*What follows is my from scratch css code*/
+body {
+	background: ##fff086;
+	background-image: url("images/background.png");
+	background-repeat: repeat;
+}
+
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+ }
+
+#leftColumn {
+	float: left;
+	width: 650px;
+	height: 650px;
+	background-image: url("images/cloth_alike.png");
+}
+
+#rightColumn {
+	float: right;
+	width: 350px;
+	height: 650px;
+	background-color: #f5e3d4;
+	padding: none;
+	border: none;
+	border-bottom-right-radius: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+}
+
+#rightColumn li {
+	margin: 10px;
+	width: 330px;
+	background-image: linear-gradient(#9d5c24, #613916);
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: inline-block;
+	border: none;
+	text-align: center;
+	border-radius: 7px;
+	color: #f5e3d4;
+}
+
+#rightColumn li:hover {
+	background-image: linear-gradient(#9d5c24, #6e4119);
+}
+
+#rightColumn li:active {
+	background-image: linear-gradient(#613916, #9d5c24);
+}
+
+li {
+	box-sizing: border-box;
+}
+
+form {
+	color: #613916;
+	margin-top: 15px;
+}
+
+form * {
+	box-sizing: border-box;
+}
+
+fieldset * {
+	margin: 20px;
+}
+
+legend {
+	font-size: 90%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+::-webkit-input-placeholder {
+	color: #613916;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+	color: #613916;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+	color: #613916;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+}
+
+:-ms-input-placeholder {  
+	color: #613916;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+}
+
+input,textarea {
+	background-color: #dda472;
+	border: 0;
+	padding-left: 10px;
+	color: #613916;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	border-radius: 7px;
+}
+
+textarea:focus,input:focus {
+    outline: none !important;
+    border:2px solid #613916 !important;
+}
+
+textarea:hover,input:hover {
+    outline: none !important;
+    border:1px solid #9d5c24;
+}
+
+textarea {
+	width: 89%;
+	height: 170px;
+	padding-top: 10px;
+	margin-top: 10px;
+	display: inline-block;
+	resize: none;
+}
+
+input {
+	height: 30px;
+	width: 89%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.album {
+	top: 0px;
+	left: 0px;
+	width: 650px;
+	display: inline-block;
+	border-bottom-left-radius: 10px;
+}
+
+#spacer {
+	height: 35px;
+	width: 100%;
+	clear: both;
+}
+
+#infogram {
+	display: inline-block;
+	width: 100%;
+	box-sizing: border-box;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+#getyourcopy {
+	width: 180px;
+}
+
+iframe {
+	margin: 0;
+	padding: 0;
+	border: none;
+	width: 100%;
+	height: 215px;
+}
