@@ -114,6 +114,10 @@ form * {
 	box-sizing: border-box;
 }
 
+fieldset {
+	text-align: center;
+}
+
 fieldset * {
 	margin: 20px;
 }
@@ -170,7 +174,7 @@ textarea:hover,input:hover {
 
 textarea {
 	width: 89%;
-	height: 170px;
+	height: 100px;
 	padding-top: 10px;
 	margin-top: 10px;
 	display: inline-block;
@@ -182,6 +186,31 @@ input {
 	width: 89%;
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+#submit {
+	display: inline-block;
+	width: auto;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-image: linear-gradient(#9d5c24, #613916);
+	border: none;
+	border-radius: 7px;
+	color: #f5e3d4;
+}
+
+#submit:hover {
+	background-image: linear-gradient(#9d5c24, #6e4119);
+}
+
+#submit:active {
+	border: none !important;
+	background-image: linear-gradient(#613916, #9d5c24);
+}
+
+#submit:focus {
+	border: none !important;
 }
 
 .album {
